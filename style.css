@@ -1,0 +1,177 @@
+html,body{
+    margin: 40px 80px 40px 80px;
+    height: 100svh;
+    width: auto;
+    animation: animacion 20s ease infinite;
+    border-radius: 20%;
+}       
+                
+@keyframes animacion{
+    0%{
+        background-color: rgb(15, 184, 119);        
+    }
+    10%{
+        background-color: rgb(127, 248, 7);
+    }
+    20%{
+        background-color: rgb(252, 252, 9);
+    }
+    30%{
+        background-color:orange;
+    }
+    40%{
+        background-color: orangered;
+    }
+    50%{
+        background-color: red;
+    }
+    60%{
+        background-color: rgb(128, 17, 128);
+    }
+    70%{
+        background-color: pink;
+    }
+    80%{
+        background-color: rgb(9, 86, 252);
+      }  
+    90%{
+        background-color: rgb(15, 18, 184); 
+    }
+    100%{
+        background-color: rgb(39, 71, 7);
+    }
+}
+
+img{
+    position: absolute;
+    height: 742px;
+    left: 47px;
+    top: -33px;
+    width: 96%;
+    z-index: -10;
+}
+.box-tv{
+    background-color: rgb(68, 48, 8);
+    height: 480px;
+    width: 100%;
+    border-radius: 8%;
+    border: 1px solid #000;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+
+    box-shadow: 2px 2px 4px #000;
+}
+.pantalla{
+    width: 790px;
+    height: 420px;
+    background-color: #000; 
+    border-radius: 18px;
+    border: 8px solid #000;
+}
+.botones{
+    width: 200px;
+    height: 432px;
+    background-color: rgb(145, 145, 145);
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    border: 1px solid #000;
+    padding: 4px;
+}
+.box-btn{
+    height: 300px;
+    width: 100%;
+    border-top-right-radius: 18px;
+    background-color: rgb(184, 183, 183);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.btn1, .btn2{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #383838;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.perilla1{
+    height: 90%;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(131, 131, 131);
+    box-shadow: 2px 4px 10px #000;
+    rotate: 30deg;
+}
+.lado1, .lado2{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.perilla2{
+    height: 20px;
+    width: 90%;
+    border-radius: 50%;
+    background-color: rgb(131, 131, 131);
+    box-shadow: 2px 4px 10px #000;
+    rotate: 20deg;
+}
+.ventilacion{
+    height: 120px;   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    height: 20px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid #000;
+    box-shadow: 2px 2px 4px #000;
+}
+.soporte{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(58, 41, 7);
+    margin-left: 12%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.patas{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    width: 34px;
+    height: 100%;
+    background-color: rgb(37, 26, 3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
